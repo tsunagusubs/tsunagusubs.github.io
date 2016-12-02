@@ -1,43 +1,92 @@
+
+
+
 body {
   font-family: 'Raleway', sans-serif;
   padding-bottom: 30px;
+  position: relative;
 }
-
-
+footer {
+  background-color: #333399;
+  color: white;
+  padding: 10px;
+}
+a {
+  color: white;
+}
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
 .navbar {
+  position: relative;
   background-color: #333399;
   color: white;
   margin-bottom: 0 !important;
 }
 
 .navbar li a, .navbar .navbar-brand {
+    position: relative;
     color: #fff !important;
 }
 
 .title {
+  position: relative;
   color: #7FFFD4;
   text-shadow: 4px 4px 4px #000000;
 }
 
 .jumbotron {
-  background-image: url("../images/hatsunemiku.png");
-  background-size: auto;
+padding-top: 250px;
+padding-bottom: 250px;
 }
 
-.bg-3 {
-  background-color:#303030;
-  color:white;
+#about {
+  position: relative;
+  color: white;
+  padding: 50px;
 }
 
-.bg-4 {
+#faq {
+  position: relative;
   background-color: #333399; color:white;
+  padding: 50px;
 }
 
-.bg-2 {
+#video {
+  position: relative;
   background-color: #3366CC;color: white;
+  padding: 50px;
 }
 
-.slideanim {visibility:hidden;}
+#description {
+
+}
+
+#picture {
+
+}
+
+#contact {
+  position: relative;
+  color: white;
+  padding: 50px;
+}
+
+.slideanim {position: relative;visibility:hidden;}
 .slide {
     /* The name of the animation */
     animation-name: slide;
