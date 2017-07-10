@@ -1,18 +1,32 @@
-
-
-
 body {
   font-family: 'Raleway', sans-serif;
   padding-bottom: 30px;
   position: relative;
+  overflow: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
 footer {
   background-color: #333399;
   color: white;
   padding: 10px;
 }
 a {
-  color: white;
+  color: #1c2f2f;
+}
+
+h1 {
+  position: relative;
+}
+
+p {
+  position: relative;
+  font-size: 20px;
+}
+
+ol {
+  font-size: 20px;
 }
 #bg {
   position: fixed;
@@ -33,25 +47,43 @@ a {
 }
 .navbar {
   position: relative;
-  background-color: #333399;
-  color: white;
   margin-bottom: 0 !important;
 }
 
 .navbar li a, .navbar .navbar-brand {
     position: relative;
-    color: #fff !important;
+    color: #6a5acd !important;
 }
 
 .title {
   position: relative;
-  color: #7FFFD4;
-  text-shadow: 4px 4px 4px #000000;
+  color: #6a5acd;
+}
+
+.page-title {
+  position: relative;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.page-date {
+  position: relative;
+  text-align: right;
+  margin-right: 5%;
+  color: #6a5acd;
+}
+
+.heading {
+  position: relative;
+  color: #6a5acd;
 }
 
 .jumbotron {
-padding-top: 250px;
-padding-bottom: 250px;
+ padding-top: 15%;
+ padding-bottom: 15%;
+ overflow: hidden;
+ position: relative;
+ background-color: transparent;
 }
 
 #about {
@@ -86,6 +118,9 @@ padding-bottom: 250px;
   padding: 50px;
 }
 
+#content {
+  position: relative;
+}
 .slideanim {position: relative;visibility:hidden;}
 .slide {
     /* The name of the animation */
