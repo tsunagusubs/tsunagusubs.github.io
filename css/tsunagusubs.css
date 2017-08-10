@@ -2,9 +2,8 @@ body {
   font-family: 'Raleway', sans-serif;
   padding-bottom: 30px;
   position: relative;
-  overflow: hidden;
-  margin-left: 5%;
-  margin-right: 5%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 footer {
@@ -25,8 +24,8 @@ p {
   font-size: 20px;
 }
 
-ol {
-  font-size: 20px;
+li {
+  font-size: 18px;
 }
 #bg {
   position: fixed;
@@ -45,19 +44,16 @@ ol {
   min-width: 50%;
   min-height: 50%;
 }
-.navbar {
-  position: relative;
-  margin-bottom: 0 !important;
-}
 
-.navbar li a, .navbar .navbar-brand {
-    position: relative;
-    color: #6a5acd !important;
-}
 
+.content {
+  color: #1c2f2f;
+}
 .title {
   position: relative;
   color: #6a5acd;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .page-title {
@@ -81,46 +77,31 @@ ol {
 .jumbotron {
  padding-top: 15%;
  padding-bottom: 15%;
- overflow: hidden;
  position: relative;
  background-color: transparent;
 }
 
-#about {
-  position: relative;
+.navbar {
+    position: relative;
+    background-color: #6a5acd;
+}
+
+.navbar-default .navbar-nav > li >a {
   color: white;
-  padding: 50px;
 }
 
-#faq {
-  position: relative;
-  background-color: #333399; color:white;
-  padding: 50px;
-}
-
-#video {
-  position: relative;
-  background-color: #3366CC;color: white;
-  padding: 50px;
-}
-
-#description {
-
-}
-
-#picture {
-
-}
-
-#contact {
-  position: relative;
+.navbar-default .navbar-brand {
   color: white;
-  padding: 50px;
 }
 
-#content {
+
+#about #faq #contact {
   position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+
 .slideanim {position: relative;visibility:hidden;}
 .slide {
     /* The name of the animation */
